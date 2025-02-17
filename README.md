@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0069-sqrtx) |
+| [0204-count-primes](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0204-count-primes) |
 ## Binary Search
 |  |
 | ------- |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0079-word-search) |
+| [0204-count-primes](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0204-count-primes) |
 ## String
 |  |
 | ------- |
@@ -52,4 +54,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
