@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0079-word-search](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0079-word-search) |
 | [0204-count-primes](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0204-count-primes) |
+| [3429-special-array-i](https://github.com/Gaurav-Phogat/Leetcode/tree/master/3429-special-array-i) |
 ## String
 |  |
 | ------- |
