@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0002-add-two-numbers) |
 | [0069-sqrtx](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0069-sqrtx) |
 | [0204-count-primes](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0204-count-primes) |
 ## Binary Search
@@ -15,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0002-add-two-numbers) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0083-remove-duplicates-from-sorted-list) |
 ## Array
 |  |
@@ -63,4 +65,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0204-count-primes) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
