@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0079-word-search](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0079-word-search) |
 ## Backtracking
 |  |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0300-longest-increasing-subsequence](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 ## Divide and Conquer
 |  |
@@ -102,4 +104,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+## Two Pointers
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
