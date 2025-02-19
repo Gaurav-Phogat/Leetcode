@@ -7,7 +7,7 @@ class Solution {
 
         for(char strChar : s.toCharArray()){
             if(chars[strChar] == 1){
-                for(int i = start;i <= end ; i++){
+                for(int i = start;i <= end;i++){
                     if(s.charAt(i) == strChar){
                         start = i+1;
                         chars[strChar] = 0;
