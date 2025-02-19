@@ -4,14 +4,14 @@ class Solution {
         if(s == null || s.length() == 0){
             return "";
         }
-
         int start = 0;
         int end = 0;
 
-        for(int i = 0;i < s.length(); i++){
-            int odd = expandAroundCenter(s,i,i);
-            int even = expandAroundCenter(s,i,i+1);
-            int maxLength = Math.max(even,odd);
+        for(int i = 0;i < s.length() ; i++){
+            int odd = expandString(s,i,i);
+            int even = expandString(s,i,i+1);
+
+            int maxLength = Math.max(odd,even);
 
             if(maxLength > end-start){
                 start = i - (maxLength-1)/2;
@@ -19,13 +19,12 @@ class Solution {
             }
         }
         return s.substring(start,end+1);
-        
     }
-    public int expandAroundCenter(String s,int left,int right){
-        
+    public int expandString(String s, int left,int right){
+
         while(left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)){
-            left--;
             right++;
+            left--;
         }
         return right-left-1;
     }
