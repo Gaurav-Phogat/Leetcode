@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0300-longest-increasing-subsequence](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0414-third-maximum-number](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0414-third-maximum-number) |
+| [2836-neither-minimum-nor-maximum](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2836-neither-minimum-nor-maximum) |
 | [3429-special-array-i](https://github.com/Gaurav-Phogat/Leetcode/tree/master/3429-special-array-i) |
 ## String
 |  |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0414-third-maximum-number](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0414-third-maximum-number) |
+| [2836-neither-minimum-nor-maximum](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2836-neither-minimum-nor-maximum) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
