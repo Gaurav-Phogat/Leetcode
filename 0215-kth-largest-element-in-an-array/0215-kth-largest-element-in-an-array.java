@@ -5,13 +5,12 @@ public class Solution {
             minHeap.offer(nums[i]);
         }
         
-        for (int i = k; i < nums.length; i++) {
-            if (nums[i] > minHeap.peek()) {
+        for(int i = k;i<nums.length;i++){
+            if(minHeap.peek() < nums[i]){
                 minHeap.poll();
                 minHeap.offer(nums[i]);
             }
         }
-        
         return minHeap.peek();
     }
 }
