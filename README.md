@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0300-longest-increasing-subsequence](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0414-third-maximum-number](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0414-third-maximum-number) |
+| [1720-crawler-log-folder](https://github.com/Gaurav-Phogat/Leetcode/tree/master/1720-crawler-log-folder) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2836-neither-minimum-nor-maximum](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2836-neither-minimum-nor-maximum) |
 | [3429-special-array-i](https://github.com/Gaurav-Phogat/Leetcode/tree/master/3429-special-array-i) |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0079-word-search](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0079-word-search) |
 | [0812-rotate-string](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0812-rotate-string) |
+| [1720-crawler-log-folder](https://github.com/Gaurav-Phogat/Leetcode/tree/master/1720-crawler-log-folder) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Backtracking
 |  |
@@ -130,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [1720-crawler-log-folder](https://github.com/Gaurav-Phogat/Leetcode/tree/master/1720-crawler-log-folder) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Simulation
 |  |
