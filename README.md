@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0414-third-maximum-number](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0414-third-maximum-number) |
 | [1720-crawler-log-folder](https://github.com/Gaurav-Phogat/Leetcode/tree/master/1720-crawler-log-folder) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/Gaurav-Phogat/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2836-neither-minimum-nor-maximum](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2836-neither-minimum-nor-maximum) |
 | [3429-special-array-i](https://github.com/Gaurav-Phogat/Leetcode/tree/master/3429-special-array-i) |
