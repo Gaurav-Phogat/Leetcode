@@ -4,10 +4,10 @@ class Solution {
 
         for(int n : nums){
             minHeap.offer(n);
-            if(minHeap.size() == 3) {
+            if(minHeap.size() == 3){
                 minHeap.poll();
                 return minHeap.peek();
-            };
+            }
         }
         return -1;
     }
