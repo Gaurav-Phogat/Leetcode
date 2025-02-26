@@ -161,4 +161,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0572-subtree-of-another-tree) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0461-hamming-distance](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0461-hamming-distance) |
 <!---LeetCode Topics End-->
