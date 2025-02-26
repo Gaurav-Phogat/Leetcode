@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0079-word-search](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0079-word-search) |
 | [0812-rotate-string](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0812-rotate-string) |
+| [0874-backspace-string-compare](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0874-backspace-string-compare) |
 | [1720-crawler-log-folder](https://github.com/Gaurav-Phogat/Leetcode/tree/master/1720-crawler-log-folder) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Backtracking
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0874-backspace-string-compare](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0874-backspace-string-compare) |
 ## String Matching
 |  |
 | ------- |
@@ -145,11 +147,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0874-backspace-string-compare](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0874-backspace-string-compare) |
 | [1720-crawler-log-folder](https://github.com/Gaurav-Phogat/Leetcode/tree/master/1720-crawler-log-folder) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Simulation
 |  |
 | ------- |
+| [0874-backspace-string-compare](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0874-backspace-string-compare) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Hash Function
 |  |
