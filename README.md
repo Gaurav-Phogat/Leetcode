@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0069-sqrtx](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0069-sqrtx) |
 | [0300-longest-increasing-subsequence](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Linked List
 |  |
 | ------- |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0300-longest-increasing-subsequence](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0414-third-maximum-number](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0414-third-maximum-number) |
 | [0747-min-cost-climbing-stairs](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [1720-crawler-log-folder](https://github.com/Gaurav-Phogat/Leetcode/tree/master/1720-crawler-log-folder) |
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0414-third-maximum-number](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0414-third-maximum-number) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2836-neither-minimum-nor-maximum](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2836-neither-minimum-nor-maximum) |
@@ -129,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Sliding Window
 |  |
@@ -139,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0874-backspace-string-compare](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0874-backspace-string-compare) |
 ## String Matching
 |  |
