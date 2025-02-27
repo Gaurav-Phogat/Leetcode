@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0079-word-search](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0079-word-search) |
 | [0198-house-robber](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0198-house-robber) |
 | [0204-count-primes](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0204-count-primes) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0141-linked-list-cycle](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
