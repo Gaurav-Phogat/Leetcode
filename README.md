@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0874-backspace-string-compare](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0874-backspace-string-compare) |
 | [1720-crawler-log-folder](https://github.com/Gaurav-Phogat/Leetcode/tree/master/1720-crawler-log-folder) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [3447-clear-digits](https://github.com/Gaurav-Phogat/Leetcode/tree/master/3447-clear-digits) |
 ## Backtracking
 |  |
 | ------- |
@@ -164,11 +165,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0874-backspace-string-compare](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0874-backspace-string-compare) |
 | [1720-crawler-log-folder](https://github.com/Gaurav-Phogat/Leetcode/tree/master/1720-crawler-log-folder) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [3447-clear-digits](https://github.com/Gaurav-Phogat/Leetcode/tree/master/3447-clear-digits) |
 ## Simulation
 |  |
 | ------- |
 | [0874-backspace-string-compare](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0874-backspace-string-compare) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [3447-clear-digits](https://github.com/Gaurav-Phogat/Leetcode/tree/master/3447-clear-digits) |
 ## Hash Function
 |  |
 | ------- |
