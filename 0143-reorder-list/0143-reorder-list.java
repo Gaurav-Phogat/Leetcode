@@ -10,7 +10,6 @@
  */
 class Solution {
     public void reorderList(ListNode head) {
-        // fast and slow pointers.
         ListNode slow = head;
         ListNode fast = head;
 
@@ -18,9 +17,7 @@ class Solution {
             slow = slow.next;
             fast = fast.next.next;
         }
-
         ListNode rev = null;
-
         while(slow != null){
             ListNode temp = slow.next;
             slow.next = rev;
@@ -35,6 +32,5 @@ class Solution {
             curr = temp1;
             rev = temp2;
         }
-
     }
 }
