@@ -8,7 +8,7 @@ class Solution {
 
         for(int i = 0;i < s.length();i++){
             if(chars[s.charAt(i)] >= start){
-                start = chars[s.charAt(i)] + 1;
+                start = chars[s.charAt(i)]+1;
             }
             chars[s.charAt(i)] = i;
             longest = Math.max(longest,i-start+1);
