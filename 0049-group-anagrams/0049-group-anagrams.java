@@ -3,16 +3,14 @@ class Solution {
 
         HashMap<String,List<String>> map = new HashMap<>();
 
-        String[] strings = new String[strs.length];
-
         for(int i = 0;i < strs.length; i++){
             char[] chars = strs[i].toCharArray();
             Arrays.sort(chars);
-            strings[i] = new String(chars);
-            if(!map.containsKey(strings[i])){
-                map.put(strings[i],new ArrayList<>());
+            String temp = new String(chars);
+            if(!map.containsKey(temp)){
+                map.put(temp,new ArrayList<>());
             }
-            map.get(strings[i]).add(strs[i]);
+            map.get(temp).add(strs[i]);
         }
         List<List<String>> res = new ArrayList<>();
 
