@@ -3,14 +3,15 @@ class Solution {
 
         HashMap<String,List<String>> map = new HashMap<>();
 
-        for(int i = 0;i < strs.length; i++){
-            char[] chars = strs[i].toCharArray();
-            Arrays.sort(chars);
-            String temp = new String(chars);
-            if(!map.containsKey(temp)){
-                map.put(temp,new ArrayList<>());
+        for(String s : strs){
+            char[] strChars = s.toCharArray();
+            Arrays.sort(strChars);
+            String tempStr = new String(strChars);
+            
+            if(!map.containsKey(tempStr)){
+                map.put(tempStr,new ArrayList<>());
             }
-            map.get(temp).add(strs[i]);
+            map.get(tempStr).add(s);
         }
         List<List<String>> res = new ArrayList<>();
 
