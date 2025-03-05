@@ -1,23 +1,21 @@
-import java.util.*;
-
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
-        Map<Character, Character> matchingBrackets = Map.of(
-            ')', '(', 
-            '}', '{', 
-            ']', '['
-        );
-
-        for (char ch : s.toCharArray()) {
-            if (matchingBrackets.containsKey(ch)) {
-                if (stack.isEmpty() || stack.pop() != matchingBrackets.get(ch)) {
-                    return false;
+        for(char c : s.toCharArray()){
+            if(!stack.isEmpty()) {
+                char temp = stack.peek();
+                if(isPair(temp,c)){
+                    stack.pop();
+                    continue;
                 }
-            } else {
-                stack.push(ch);
             }
+            stack.push(c);
         }
         return stack.isEmpty();
+    }
+    public boolean isPair(Character last,Character c){
+        return (last == '{' && c == '}' ||
+                last == '(' && c == ')' ||
+                last == '[' && c == ']');
     }
 }
