@@ -1,25 +1,23 @@
+import java.util.*;
+
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
-        for(int i = 0;i < s.length();i++){
-            if(stack.isEmpty()){
-                stack.push(s.charAt(i));
-            }
-            else if(stack.peek() == '(' && s.charAt(i) == ')'){
-                stack.pop();
-                continue;
-            }
-            else if(stack.peek() == '{' && s.charAt(i) == '}'){
-                stack.pop();
-                continue;
-            }
-            else if(stack.peek() == '[' && s.charAt(i) == ']'){
-                stack.pop();
-                continue;
+        Map<Character, Character> matchingBrackets = Map.of(
+            ')', '(', 
+            '}', '{', 
+            ']', '['
+        );
+
+        for (char ch : s.toCharArray()) {
+            if (matchingBrackets.containsKey(ch)) {
+                if (stack.isEmpty() || stack.pop() != matchingBrackets.get(ch)) {
+                    return false;
+                }
             } else {
-                stack.push(s.charAt(i));
+                stack.push(ch);
             }
         }
-        return stack.isEmpty() ? true : false;
+        return stack.isEmpty();
     }
 }
