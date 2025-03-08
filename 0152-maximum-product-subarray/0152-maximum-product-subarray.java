@@ -16,6 +16,6 @@ class Solution {
 
             res = Math.max(res,curMax);
         }
-        return res;        
+        return res;
     }
 }
