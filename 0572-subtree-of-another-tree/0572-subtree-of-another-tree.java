@@ -15,22 +15,20 @@
  */
 class Solution {
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
-
-        if((root == null) != (subRoot == null)) return false;
+        if(root == null && subRoot == null) return true;
 
         Queue<TreeNode> traversal = new LinkedList<>();
         traversal.add(root);
 
         while(!traversal.isEmpty()){
-
             int levelSize = traversal.size();
 
-            for(int i = 0;i < levelSize ; i++){
+            for(int i = 0;i < levelSize; i++){
                 TreeNode temp = traversal.poll();
-                if(temp == null) continue;
+
                 if(temp.val == subRoot.val){
-                    boolean contains = checkForSubTree(temp,subRoot);
-                    if(contains == true) return true;
+                    boolean ans = checkEqual(temp,subRoot);
+                    if(ans == true) return true;
                 }
                 if(temp.left != null){
                     traversal.add(temp.left);
@@ -42,14 +40,12 @@ class Solution {
         }
         return false;
     }
-
-    public boolean checkForSubTree(TreeNode root,TreeNode subRoot){
+    public boolean checkEqual(TreeNode root,TreeNode subRoot){
         if(root == null && subRoot == null) return true;
-        if(root == null || subRoot == null || root.val != subRoot.val) return false;
-        
-        return (
-            checkForSubTree(root.left,subRoot.left)
-            &checkForSubTree(root.right,subRoot.right)
-         );
+        if(root == null || subRoot == null) return false;
+
+        if(root.val != subRoot.val) return false;
+
+        return checkEqual(root.left,subRoot.left) && checkEqual(root.right,subRoot.right);
     }
 }
