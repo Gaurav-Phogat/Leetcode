@@ -11,7 +11,6 @@ class Solution {
             else{
                 start++;
             }
-         //   System.out.println(String.valueOf(temp));
         }
         return false;
     }
