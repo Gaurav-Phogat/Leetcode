@@ -19,49 +19,44 @@ class Solution {
 
         //hashmap approach
 
-        if(s1.length() > s2.length()) return false;
+        if (s1.length() > s2.length()) return false;
 
-        Map<Character,Integer> map1 = new HashMap<>();
-        Map<Character,Integer> map2 = new HashMap<>();
+    Map<Character, Integer> map1 = new HashMap<>();
+    Map<Character, Integer> map2 = new HashMap<>();
 
-        for(char c : s1.toCharArray()){
-            if(map1.containsKey(c)){
-                map1.put(c,map1.get(c)+1);
-            } else{
-                map1.put(c,1);
-            }
+    // Populate frequency map for s1
+    for (char c : s1.toCharArray()) {
+        map1.put(c, map1.getOrDefault(c, 0) + 1);
+    }
+
+    // Populate initial window for s2
+    for (int i = 0; i < s1.length(); i++) {
+        map2.put(s2.charAt(i), map2.getOrDefault(s2.charAt(i), 0) + 1);
+    }
+
+    // Check equality for the initial window
+    if (map1.equals(map2)) return true;
+
+    // Sliding window check
+    int j = 0;
+    for (int i = s1.length(); i < s2.length(); i++) {
+        char outgoing = s2.charAt(j);
+        char incoming = s2.charAt(i);
+        j++;
+
+        // Adjust outgoing character
+        map2.put(outgoing, map2.get(outgoing) - 1);
+        if (map2.get(outgoing) == 0) {
+            map2.remove(outgoing);
         }
 
-      //  System.out.println(map1);
+        // Adjust incoming character
+        map2.put(incoming, map2.getOrDefault(incoming, 0) + 1);
 
-        for(int i = 0;i < s1.length();i++){
-            if(map2.containsKey(s2.charAt(i))){
-                map2.put(s2.charAt(i),map2.get(s2.charAt(i))+1);
-            } else{
-                map2.put(s2.charAt(i),1);
-            }
-        }
+        // Check map equality
+        if (map1.equals(map2)) return true;
+    }
 
-        if(map1.equals(map2)) return true;
-
-      //  System.out.println(map2);
-
-        int j = 0;
-
-        for(int i = s1.length();i < s2.length(); i++){
-            if(map2.get(s2.charAt(j)) == 1){
-                map2.remove(s2.charAt(j));
-            } else{
-                map2.put(s2.charAt(j),map2.get(s2.charAt(j))-1);
-            }
-            if(map2.containsKey(s2.charAt(i))){
-                map2.put(s2.charAt(i),map2.get(s2.charAt(i))+1);
-            } else{
-                map2.put(s2.charAt(i),1);
-            }
-            j++;
-            if(map1.equals(map2)) return true;
-        }
-        return false;
+    return false;
     }
 }
