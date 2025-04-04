@@ -10,7 +10,8 @@ class Solution {
         for(int n : nums){
             curSum += n;
             maxSum = Math.max(maxSum,curSum);
-            if(curSum < 0){
+
+            if(curSum < 1){
                 curSum = 0;
             }
         }
