@@ -18,20 +18,20 @@ class Solution {
     List<List<Integer>> ans = new ArrayList<>();
 
     public List<List<Integer>> levelOrder(TreeNode root) {
-
         if(root == null) return ans;
 
         ans.add(new ArrayList<>());
         dfs(root,0);
+
         return ans;
     }
     public void dfs(TreeNode root,int level){
+
         if(root == null) return;
 
-        if(level != 0 && level >= ans.size()){
+        if(level >= ans.size()){
             ans.add(new ArrayList<>());
         }
-
         ans.get(level).add(root.val);
 
         dfs(root.left,level+1);
