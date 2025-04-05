@@ -22,11 +22,9 @@ class Solution {
 
         ans.add(new ArrayList<>());
         dfs(root,0);
-
         return ans;
     }
     public void dfs(TreeNode root,int level){
-
         if(root == null) return;
 
         if(level >= ans.size()){
