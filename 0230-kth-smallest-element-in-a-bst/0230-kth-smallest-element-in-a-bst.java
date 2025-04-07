@@ -24,11 +24,15 @@ class Solution {
     public void dfs(TreeNode node,int level,int target){
         if(node == null) return;
         
-        maxHeap.offer(node.val);
+        if(maxHeap.isEmpty() || maxHeap.size() < target){
+            maxHeap.offer(node.val);
+        } else{
+            if(node.val < maxHeap.peek()){
+                maxHeap.poll();
+                maxHeap.offer(node.val);
+            }
+        } 
 
-        if(maxHeap.size() > target){
-            maxHeap.poll();
-        }
         dfs(node.left,level+1,target);
         dfs(node.right,level+1,target);
     }
