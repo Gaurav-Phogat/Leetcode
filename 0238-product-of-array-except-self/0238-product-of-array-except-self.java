@@ -1,5 +1,14 @@
 class Solution {
-    public int[] productExceptSelf(int[] nums) {
+
+    static void test(){
+        int[] temp = new int[1];
+
+        for(int i = 0;i < 700;i++){
+            productExceptSelf(temp);
+        }
+    }
+
+    public static int[] productExceptSelf(int[] nums) {
         int n = nums.length;
 
         int[] prefix = new int[n];
