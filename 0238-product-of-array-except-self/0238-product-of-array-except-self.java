@@ -1,31 +1,21 @@
 class Solution {
-
-    static void test(){
-        int[] temp = new int[1];
-
-        for(int i = 0;i < 700;i++){
-            productExceptSelf(temp);
-        }
-    }
-
-    public static int[] productExceptSelf(int[] nums) {
-        int n = nums.length;
-
-        int[] prefix = new int[n];
-        int[] suffix = new int[n];
+    public int[] productExceptSelf(int[] nums) {
+        int[] prefix = new int[nums.length];
+        int[] suffix = new int[nums.length];
         Arrays.fill(prefix,1);
         Arrays.fill(suffix,1);
 
-        for(int i = 1;i < n;i++){
+        for(int i = 1;i < nums.length;i++){
             prefix[i] = prefix[i-1]*nums[i-1];
-            suffix[n-i-1] = suffix[n-i]*nums[n-i];
+            System.out.println(prefix[i]);
         }
 
-      /*  for(int i = nums.length-2;i >= 0;i--){
+        for(int i = nums.length-2;i >= 0;i--){
             suffix[i] = suffix[i+1]*nums[i+1];
-        } */
+            System.out.println(suffix[i]);
+        }
 
-        for(int i = 0;i < n;i++){
+        for(int i = 0;i < nums.length;i++){
             nums[i] = prefix[i]*suffix[i];
         }
 
