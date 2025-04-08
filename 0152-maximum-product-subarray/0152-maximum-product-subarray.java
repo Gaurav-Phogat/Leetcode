@@ -1,20 +1,20 @@
 class Solution {
     public int maxProduct(int[] nums) {
         int maxProduct = Integer.MIN_VALUE;
-        int curPro = 1;
-        int minPro = 1;
+        int curMax = 1;
+        int curMin = 1;
 
         for(int n : nums){
             maxProduct = Math.max(maxProduct,n);
         }
 
-        for(int n: nums){
-            int temp = curPro*n;
+        for(int n : nums){
+            int temp = curMax*n;
 
-            curPro = Math.max(temp,Math.max(minPro*n,n));
-            minPro = Math.min(temp,Math.min(minPro*n,n));
+            curMax = Math.max(temp,Math.max(curMin*n,n));
+            curMin = Math.min(temp,Math.min(curMin*n,n));
 
-            maxProduct = Math.max(maxProduct,curPro);
+            maxProduct = Math.max(maxProduct,curMax);
         }
         return maxProduct;
     }
