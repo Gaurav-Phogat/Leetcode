@@ -312,4 +312,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Database
+|  |
+| ------- |
+| [1179-game-play-analysis-i](https://github.com/Gaurav-Phogat/Leetcode/tree/master/1179-game-play-analysis-i) |
 <!---LeetCode Topics End-->
