@@ -13,24 +13,37 @@ class Solution {
         ListNode slow = head;
         ListNode fast = head;
 
-        while(fast != null && fast.next != null && fast.next.next != null){
+        while(fast != null && fast.next != null){
             slow = slow.next;
             fast = fast.next.next;
         }
         ListNode rev = null;
-        while(slow != null){
-            ListNode temp = slow.next;
-            slow.next = rev;
-            rev = slow;
-            slow = temp;
+        ListNode toRev = slow;
+
+        while(toRev != null){
+            ListNode temp = toRev.next;
+            toRev.next = rev;
+            rev = toRev;
+            toRev = temp;
         }
-        ListNode curr = head;
-        while(curr != null){
-            ListNode temp1 = curr.next,temp2 = rev.next;
-            curr.next = rev;
-            rev.next = temp1;
-            curr = temp1;
-            rev = temp2;
+        slow.next = null;
+
+        ListNode cur = head;
+        ListNode ans = new ListNode(0);
+        ListNode curAns = ans;
+        int count = 0;
+
+        while(rev != null){
+            if(count%2 == 0 && cur.next != null){
+                curAns.next = cur;
+                cur = cur.next;
+            } else{
+                curAns.next = rev;
+                rev = rev.next;
+            }
+            curAns = curAns.next;
+            count++;
         }
+        head = ans.next;
     }
 }
