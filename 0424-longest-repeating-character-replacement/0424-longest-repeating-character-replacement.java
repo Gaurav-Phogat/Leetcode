@@ -1,27 +1,22 @@
 
 class Solution {
-    static{
-        for(int i = 0;i < 200;i++){
-            characterReplacement("",1);
-        }
-    }
     public static int characterReplacement(String s, int k) {
+        
         int[] freq = new int[26];
-        int res = 0,i = 0,maxFreq = 0;
+        int longest = 0;
+        int maxFreq = 0;
+        int start = 0;
 
-        for(int j = 0;j < s.length();j++){
-            int c = s.charAt(j)-'A';
-            freq[c]++;
-            maxFreq = Math.max(maxFreq,freq[c]);
+        for(int i = 0; i < s.length(); i++){
+            freq[s.charAt(i)-'A']++;
+            maxFreq = Math.max(maxFreq,freq[s.charAt(i)-'A']);
 
-            while( (j - i + 1 ) - maxFreq > k ){
-                char left = s.charAt(i);
-                freq[left-'A']--;
-                i++;
+            if((i-start+1)-maxFreq > k){
+                freq[s.charAt(start)-'A']--;
+                start = start+1;
             }
-            res = Math.max(res, (j - i + 1) );
+            longest = Math.max(longest,i-start+1);
         }
-
-        return res;
+        return longest;
     }
 }
