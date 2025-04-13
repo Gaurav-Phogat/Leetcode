@@ -5,7 +5,7 @@ class Solution {
         int start = 0;
         int longest = 0;
 
-        for(int i = 0;i < s.length();i++){
+        for(int i =0;i < s.length();i++){
             if(chars[s.charAt(i)] >= start){
                 start = chars[s.charAt(i)]+1;
             }
