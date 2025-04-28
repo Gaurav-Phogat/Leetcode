@@ -5,9 +5,9 @@
 var containsDuplicate = function(nums) {
     const mySet = new Set();
 
-    for(let n of nums){
-        if(mySet.has(n)) return true;
-        mySet.add(n);
+    for(let i = 0;i < nums.length;i++){
+        if(mySet.has(nums[i])) return true;
+        mySet.add(nums[i]);
     }
     return false
 };
