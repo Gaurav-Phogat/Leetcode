@@ -5,12 +5,10 @@ class Solution {
 
         for(int i = 0;i < nums.length;  i++){
             if(nums[i] == key){
-                for(int j = ((i-k) > -1 && (i-k) > max) ? i-k : max > 0 ? max : 0 ;j <= (i+k) && j < nums.length;j++){
-                    if(j <= max) continue;
-                    else{
-                        max = j;
-                        list.add(j);
-                    }
+                int start = (i-k) > max ? ((i-k) >= 0 ? (i-k) : 0) : max+1;
+                for(int j = start;j <= (i+k) && j < nums.length;j++){
+                    max = j;
+                    list.add(j);
                 }
             }
         }
