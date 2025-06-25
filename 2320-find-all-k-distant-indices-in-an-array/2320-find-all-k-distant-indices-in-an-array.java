@@ -5,15 +5,15 @@ class Solution {
 
         for(int i = 0;i < nums.length;  i++){
             if(nums[i] == key){
-                for(int j = ((i-k) > -1) ? i-k : 0;j <= (i+k) && j < nums.length;j++)
-                set.add(j);
+                for(int j = ((i-k) > -1) ? i-k : 0;j <= (i+k) && j < nums.length;j++){
+                    if(set.contains(j)) continue;
+                    else{
+                        set.add(j);
+                        list.add(j);
+                    }
+                }
             }
         }
-
-        for(int n: set){
-            list.add(n);
-        }
-
         return list;
     }
 }
