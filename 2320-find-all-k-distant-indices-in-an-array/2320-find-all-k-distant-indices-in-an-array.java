@@ -6,7 +6,7 @@ class Solution {
         for(int i = 0;i < nums.length;  i++){
             if(nums[i] == key){
                 // start must be bigger then the last value added to lsit always
-                int start = (i-k) > last ? ((i-k) >= 0 ? (i-k) : 0) : last+1;
+                int start = Math.max(last+1,Math.max(0,(i-k)));
                 for(int j = start;j <= (i+k) && j < nums.length;j++){
                     last = j;
                     list.add(j);
