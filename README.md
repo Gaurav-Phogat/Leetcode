@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/Gaurav-Phogat/Leetcode/tree/master/1720-crawler-log-folder) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Gaurav-Phogat/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+| [2320-find-all-k-distant-indices-in-an-array](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2836-neither-minimum-nor-maximum](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2836-neither-minimum-nor-maximum) |
 | [3429-special-array-i](https://github.com/Gaurav-Phogat/Leetcode/tree/master/3429-special-array-i) |
 ## String
@@ -255,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0874-backspace-string-compare](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0908-middle-of-the-linked-list](https://github.com/Gaurav-Phogat/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/Gaurav-Phogat/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
+| [2320-find-all-k-distant-indices-in-an-array](https://github.com/Gaurav-Phogat/Leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 ## String Matching
 |  |
 | ------- |
